@@ -25,5 +25,10 @@ public class Main {
         } else {
             System.out.println(year+" год является високосным");
         }
+        //Задача 4
+        System.out.println("\nЗадача 4");
+        int deliveryDistance = 95;
+        int deliveryTime = 1+(20+deliveryDistance)/40;
+        System.out.println("Потребуется дней: " +deliveryTime);
     }
 }
